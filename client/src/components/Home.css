@@ -1,0 +1,75 @@
+/*@media (min-width: 768px) {
+    .showcase {
+      background-position: top;
+    }*/
+  
+    .showcase .showcase-overlay h1 {
+      font-size: 64px;
+    }
+  
+    .showcase .showcase-overlay p {
+      font-size: 18px;
+    }
+
+    .showcase .showcase-overlay h1 {
+        font-size: 60px;
+        padding-bottom: 20px;
+      }
+
+      .showcase {
+        background-image: url("./images/cart.jpg")
+        no-repeat center/cover;
+        height: 600px;
+        
+      }
+      .section-desc {
+        text-align: center;
+        margin: 2rem 0 2rem 0;
+        
+      }
+
+      .showcase .showcase-overlay {
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 660px;
+        text-align: center;
+        color: #060505;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding-bottom: 20px;
+      }
+
+      .destinations {
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .destinations h3 {
+        font-size: 30px;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      .destinations .grid div {
+        background-color: #f1f1f1;
+        margin-bottom: 30px;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      
+      .destinations .grid div img {
+        border-radius: 10px;
+      }
+
+      .destinations .grid  {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+    
+      .destinations .grid  div img .allspan{
+        height: 50px;
+        width: 40px;
+      }
